@@ -19,31 +19,30 @@
 - Tailwind CSS
 - react-markdown
 - react-syntax-highlighter
-- lucide-react
 
 ## 快速开始
 
 ### 安装依赖
-\`\`\`bash
+```bash
 npm.cmd install
-\`\`\`
+```
 
 ### 启动开发服务器
-\`\`\`bash
+```bash
 npm.cmd run dev
-\`\`\`
+```
 
 访问: http://localhost:5173
 
 
 ## 项目结构
 
-\`\`\`
+```
 src/
 ├── App.tsx              # 主应用组件
 ├── main.tsx            # 应用入口
 └── index.css           # 全局样式
-\`\`\`
+```
 
 ## 使用说明
 
@@ -63,13 +62,13 @@ src/
 
 
 
----
-
 
 ##  mock
 
 ### src/App.tsx
-```json
+
+```
+
 // Mock AI回复数据
 const mockResponses = [
   "你好！我是AI助手，很高兴为你服务。有什么我可以帮助你的吗？",
@@ -77,7 +76,8 @@ const mockResponses = [
   "当然可以！这里有一段示例代码：\n\n```javascript\nfunction greeting(name) {\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greeting('World'));\n```\n\n这段代码展示了如何创建一个简单的问候函数。",
   "我理解你的需求。根据你的描述，我建议采用以下方案：\n\n**方案优势**：\n- 易于实现\n- 性能良好\n- 维护成本低\n\n你觉得这个方案如何？",
 ];
-
+```
+```
 // 模拟卡片数据
 const mockCardResponse: Message = {
   id: 'card-1',
@@ -94,5 +94,6 @@ const mockCardResponse: Message = {
 };
 ```
 
----
+
+
 
